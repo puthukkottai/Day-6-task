@@ -1,0 +1,14 @@
+class uberprise {
+constructure(distancetraveled, waitingtim) {
+this.distancetraveled = distancetraveled;
+this.waitingtime = waiting time;
+}
+calculateprice() {
+const timeperhrs = 8.0;
+const perkm= 200;
+const totalprice = perkm * this.distancetraveled + timeperhrs * this.waitingtime;
+return totalprice;
+}
+}
+const ride = new uberprice(200,80);
+console.log('the total cost is:${ride,calculaterprice()}');

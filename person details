@@ -1,0 +1,12 @@
+class person {
+constructure(name,age,gender0 {
+this.name = name;
+this.age = age;
+this.gender = gender;
+}
+info() {
+return 'Name: $(this.name},Age: ${this.age},Gender: ${this.gender}';
+}
+}
+console person = new person("sundar",23,"Male');
+console.log(person.info());
